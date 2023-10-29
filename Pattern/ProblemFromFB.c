@@ -16,7 +16,7 @@ int main()
         }
         else
         {
-            k = k + 3;
+            k = k + (N - 2);
             for (int j = 1; j <= N - 1; j++)
             {
                 printf("%d ", k--);
