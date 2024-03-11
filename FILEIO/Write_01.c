@@ -3,7 +3,7 @@
 int main()
 {
   FILE *fp;
-  fp = fopen("beltola.txt", "r");
+  fp = fopen("beltola.txt", "w");
   if (fp == NULL) {
     printf("File is Not Opened\n");
     // return 1;
