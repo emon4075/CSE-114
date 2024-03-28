@@ -10,6 +10,7 @@ int main()
   }
   fputs("Remon", fp);
   fputs(" emonaaaaa", fp);
+  printf("Hello World\n");
   fclose(fp);
   return 0;
 }
